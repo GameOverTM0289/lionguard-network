@@ -72,3 +72,17 @@ nav ul li a {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+.bounty-hotline {
+  padding: 2rem 0;
+  .hero {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .bounty-info,
+  .guidance,
+  .bounty-contact {
+    margin-bottom: 2rem;
+  }
+}
