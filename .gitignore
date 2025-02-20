@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Compiled CSS
+public/css/*.css
+public/css/*.css.map
+
+# Environment variables
+.env

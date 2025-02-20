@@ -1,0 +1,74 @@
+@import 'base/variables';
+@import 'base/reset';
+@import 'base/mixins';
+
+// Basic global styles
+body {
+  font-family: $font-stack;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+// Header styles
+header {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 1rem;
+}
+
+// Footer styles
+footer {
+  background-color: $primary-color;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+// Nav & dropdown
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: $secondary-color;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  color: #333;
+  min-width: 200px;
+  margin-top: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.dropdown-content li {
+  padding: 0;
+}
+
+.dropdown-content li a {
+  color: #333;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
